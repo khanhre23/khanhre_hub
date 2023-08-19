@@ -1,6 +1,3 @@
-local GBaoui = {}
-do  local ui =  game:GetService("CoreGui").RobloxGui.Modules:FindFirstChild("GBaoui")  if ui then ui:Destroy() end end
-repeat wait() until game:IsLoaded()
 local ScreenGui1 = Instance.new("ScreenGui")
 local ImageButton1 = Instance.new("ImageButton")
 local UICorner = Instance.new("UICorner")
